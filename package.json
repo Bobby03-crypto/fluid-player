@@ -4,6 +4,7 @@
   "description": "Fluid Player is a free HTML5 video player",
   "main": "src/index.js",
   "scripts": {
+    
     "build": "webpack --mode=production",
     "build-cdn": "webpack --mode=production --env dist='current' && webpack --mode=production --env dist='versioned'",
     "build-dev": "webpack --mode=development",
